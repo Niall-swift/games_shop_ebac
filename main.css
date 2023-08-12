@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,
+input,
+textarea{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background: url(https://armory.visualsoldiers.com/wp-content/uploads/2019/05/Pur-CSS-Rain.gif)center/cover;
+    color: #ecf0f1;
+}
+header{
+    padding: 16px 0;
+    color: #0000;
+    font-family: 'start2p';
+    text-transform: uppercase;
+}
+header h1{
+    animation: texto 3.75s ease infinite;
+}
+header nav li{
+    display: inline;
+    margin-left: 26px;
+}
+header nav li a { 
+    color: #ecf0f1;
+    text-decoration: none;
+}
+.content{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+header .content,
+section .content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.brands_list img{
+    height: 25px;
+    margin: 5px;
+}
+.brands_list li{
+    display: inline;
+}
+section .content{
+    align-items: flex-start;
+}
+section{
+    padding: 24px 0;
+}
+section h2{
+    margin-bottom: 16px;
+    font-family: 'start2p';
+}
+section p{
+    margin-bottom: 16px;
+}
+section img{
+    margin-right: 32px;
+}
+.social-links img{
+    height: 24px;
+    margin: 8px;
+
+}
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+.social-links li a{
+    text-decoration: none;
+}
+#contatc .content{
+    display: block;
+}
+.contentc-methods{
+    display: flex;
+    justify-content: space-between;
+}
+section h3{
+    margin-bottom: 16px;
+}
+form input,
+form textarea,
+form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+form textarea{
+    resize: none;
+}
+form button{
+    background-color: #182c61;
+    color: #ecf0f1;
+    border: none;
+    cursor: pointer;
+}
+form button:hover{
+    background-color: #032c9c;
+    transition: .7s;
+}
+input:focus{
+    box-shadow: 0px 0px 10px 0px #0141f0;
+    outline: none;
+}
+
+footer{
+    color: #ecf0f1;
+    padding: 16px 0;
+    background: #182c61
+}
+
+@keyframes texto {
+    0%{
+        color: black;
+
+    }
+    10%{
+        color: rgb(4, 213, 255);
+        filter: drop-shadow(0px 1px 15px rgb(4, 213, 255));
+
+    }
+    15%{
+        color: aqua;
+        filter: drop-shadow(0px 1px 8px aqua);
+    }
+    20%{
+        color: rgb(4, 213, 255);
+        filter: drop-shadow(0px 1px 15px rgb(4, 213, 255));
+
+    }
+    25%{
+        color: black;
+
+    }
+    30%
+    {
+        color: aqua;
+        filter: drop-shadow(0px 1px 8px aqua);
+
+    }
+    35%{
+        color: black;
+
+    }
+    40%{
+        color: black;
+
+    }
+    45%{
+        color: rgb(4, 213, 255);
+        filter: drop-shadow(0px 1px 15px rgb(4, 213, 255));
+        
+    }
+    50%{
+        olor: aqua;
+        filter: drop-shadow(0px 1px 8px aqua);
+
+    }
+    55%{
+        color: black;
+        
+    }
+    60%{
+        olor: aqua;
+        filter: drop-shadow(0px 1px 15px aqua);
+    }
+    65%{
+        color: black;
+    }
+    70%{
+        color: rgb(4, 213, 255);
+        filter: drop-shadow(0px 1px 8px rgb(4, 213, 255));
+
+    }
+    75%{
+        color: black;
+    }
+    80%{
+        color: black;
+
+    }
+    85%{
+        color: black;
+        
+    }
+    90%{
+        color: black;
+    }
+    95%{
+        color: rgb(4, 213, 255);
+        filter: drop-shadow(0px 1px 8px rgb(4, 213, 255));
+    }
+    100%{
+        color: black;
+    }
+}
