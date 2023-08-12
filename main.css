@@ -9,17 +9,20 @@ textarea{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 body{
-    background: url(https://armory.visualsoldiers.com/wp-content/uploads/2019/05/Pur-CSS-Rain.gif)center/cover;
+    background: url(https://wallpapercave.com/wp/wc1688113.png)center/cover;
     color: #ecf0f1;
 }
 header{
-    padding: 16px 0;
+    padding: 6px;
     color: #0000;
+    backdrop-filter: saturate(200%) blur(50px);
     font-family: 'start2p';
     text-transform: uppercase;
 }
-header h1{
-    animation: texto 3.75s ease infinite;
+header h1 img{
+    padding: 6px;
+    height: 100px;
+    width: 500px;
 }
 header nav li{
     display: inline;
@@ -59,6 +62,7 @@ section h2{
 }
 section p{
     margin-bottom: 16px;
+    font-weight: 600;
 }
 section img{
     margin-right: 32px;
@@ -92,18 +96,27 @@ form button{
     width: 320px;
     margin-bottom: 8px;
     padding: 8px;
+    background: url(https://www.nicepng.com/png/full/182-1827785_views-minecraft-wood-plank-texture.png)center/cover;
+    background-size: 100px;
+    border: none;
+    border-radius: 5px;
+}
+::placeholder{
+    color: #ecf0f1;
+    font-weight: 600;
 }
 form textarea{
     resize: none;
 }
 form button{
-    background-color: #182c61;
+    background: url(https://cdn3.vectorstock.com/i/1000x1000/30/47/pixel-minecraft-style-obsidian-block-background-vector-46633047.jpg)center/cover;
+    background-size: 200px;
     color: #ecf0f1;
     border: none;
     cursor: pointer;
 }
 form button:hover{
-    background-color: #032c9c;
+    background: url(https://www.tynker.com/minecraft/api/block?id=5f8da57e4da6ad0ba21589a5&w=400&h=400&width=400&height=400&mode=contain&format=jpg&quality=75&cache=max&v=1603203868)center/cover;
     transition: .7s;
 }
 input:focus{
@@ -113,92 +126,8 @@ input:focus{
 
 footer{
     color: #ecf0f1;
-    padding: 16px 0;
-    background: #182c61
-}
-
-@keyframes texto {
-    0%{
-        color: black;
-
-    }
-    10%{
-        color: rgb(4, 213, 255);
-        filter: drop-shadow(0px 1px 15px rgb(4, 213, 255));
-
-    }
-    15%{
-        color: aqua;
-        filter: drop-shadow(0px 1px 8px aqua);
-    }
-    20%{
-        color: rgb(4, 213, 255);
-        filter: drop-shadow(0px 1px 15px rgb(4, 213, 255));
-
-    }
-    25%{
-        color: black;
-
-    }
-    30%
-    {
-        color: aqua;
-        filter: drop-shadow(0px 1px 8px aqua);
-
-    }
-    35%{
-        color: black;
-
-    }
-    40%{
-        color: black;
-
-    }
-    45%{
-        color: rgb(4, 213, 255);
-        filter: drop-shadow(0px 1px 15px rgb(4, 213, 255));
-        
-    }
-    50%{
-        olor: aqua;
-        filter: drop-shadow(0px 1px 8px aqua);
-
-    }
-    55%{
-        color: black;
-        
-    }
-    60%{
-        olor: aqua;
-        filter: drop-shadow(0px 1px 15px aqua);
-    }
-    65%{
-        color: black;
-    }
-    70%{
-        color: rgb(4, 213, 255);
-        filter: drop-shadow(0px 1px 8px rgb(4, 213, 255));
-
-    }
-    75%{
-        color: black;
-    }
-    80%{
-        color: black;
-
-    }
-    85%{
-        color: black;
-        
-    }
-    90%{
-        color: black;
-    }
-    95%{
-        color: rgb(4, 213, 255);
-        filter: drop-shadow(0px 1px 8px rgb(4, 213, 255));
-    }
-    100%{
-        color: black;
-    }
+    padding: 36px 0;
+    font-size: 25px;
+    background:  url(https://i.pinimg.com/736x/78/c8/d1/78c8d1962cd9ade2be59a35fdd9c8c1e--block-wall-vinyl-wall-decals.jpg);
+    background-size: 300px;
 }
